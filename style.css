@@ -1,0 +1,97 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 10;
+    text-align: center;
+}
+
+header{
+    background-color: #1d3b31;
+    color: #9acd32;
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex; /*Establecer el contenido en una fila*/
+    justify-content: center; /*centra los elementos horizontalmente*/
+    gap: 10px;/*Espacio entre los elementos*/
+    margin: 20px;/*Espacio alrededor de la galeria*/
+}
+
+.imagen{
+    display: inline-block ;/*Estalecer el contenido*/
+    background: #631818;/*Color de fondo*/
+    padding: 10px;/*Espacio alrededor de la imagen*/
+}
+
+.imagen img{
+    width: 300px;/*Ancho de la imagen*/
+    height: 300px;/*Altura de la imagen*/
+    object-fit: cover;/*Ajuste de la imagen para cubri*/
+}
+
+.cajas-medidas{
+    display: flex;/*Establecer el contenido en una fila*/
+    justify-content: center;/*centra los elementos horizontalmente*/
+    gap: 10px;/*Espacio entre los elementos*/
+    margin: 30px;/*Espacio alrededor de las cajas*/
+}
+
+.caja{
+    background-color: #447072;/*Color de fondo*/
+    padding: 50px;
+    text-align: center;
+}
+
+.px{width: 100px; height: 50px;}
+
+.porcentaje{width: 50%; height: 50px;}
+
+.em{width: 2em;height: 50px;}
+
+.vw{width: 20vw;height: 50px;}
+
+.modelo-caja{
+    width: 400px;
+    margin: 20px auto;
+    padding: 5px;
+    border: #5f9ea0 solid 5px;
+    background: #038686;
+    box-sizing: border-box;
+}
+
+.Boton-absoluto{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    background:chocolate ;
+    color: chartreuse ;
+    padding: 5px 30px ;
+    border-radius: 20px;
+}
+
+.Boton-absoluto:hover{
+    cursor: pointer;
+    background-color: #9acd32;
+    padding: auto;
+}
+
+.Boton-fijo{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background: #5a9eda;
+    color: azure;
+    padding:10px 20px ;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.Boton-fijo:hover{
+    cursor: pointer;
+    background-color: #000000;
+    padding: 10px 10px;
+}
